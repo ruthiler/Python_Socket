@@ -10,7 +10,7 @@ def get_ip_address():
     s.connect(("8.8.8.8", 80))
     return s.getsockname()[0]
 
-# Verifica as msg recebidas pelos clientes e direciona para todos os clientes conectados
+# Verifica as msg recebidas pelos clientes e direciona p todos os clientes conectados
 class verificaMensagensClientes(Thread):
     def __init__(self, conn):
         Thread.__init__(self)
