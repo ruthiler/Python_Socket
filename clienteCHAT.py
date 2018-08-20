@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*-coding:utf-8-*-
+
 import socket
 from threading import Thread
-
+'''Teste'''
 class VerificaMensagens(Thread):
     def __init__(self, tcp):
         Thread.__init__(self)
